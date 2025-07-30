@@ -1,0 +1,10 @@
+{
+  "name": "Gravity Farms Petfood CMS",
+  "description": "A seed repository for Gravity Farms Petfood CMS",
+  "version": "1.0.0",
+  "content_types": [
+    "homepage",
+    "product", 
+    "testimonial"
+  ]
+}
