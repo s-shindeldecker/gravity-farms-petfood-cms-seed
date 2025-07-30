@@ -6,9 +6,6 @@
       "display_name": "Customer Name",
       "uid": "customer_name",
       "data_type": "text",
-      "field_metadata": {
-        "description": "Name of the customer providing the testimonial"
-      },
       "mandatory": true,
       "unique": false
     },
@@ -16,9 +13,6 @@
       "display_name": "Customer Quote",
       "uid": "customer_quote",
       "data_type": "rich_text_editor",
-      "field_metadata": {
-        "description": "The customer's testimonial quote"
-      },
       "mandatory": true,
       "unique": false
     },
@@ -26,9 +20,6 @@
       "display_name": "Pet Name",
       "uid": "pet_name",
       "data_type": "text",
-      "field_metadata": {
-        "description": "Name of the customer's pet"
-      },
       "mandatory": true,
       "unique": false
     },
@@ -36,9 +27,6 @@
       "display_name": "Pet Type",
       "uid": "pet_type",
       "data_type": "select",
-      "field_metadata": {
-        "description": "Type of pet"
-      },
       "mandatory": true,
       "unique": false,
       "options": [
@@ -60,9 +48,6 @@
       "display_name": "Customer Photo",
       "uid": "customer_photo",
       "data_type": "file",
-      "field_metadata": {
-        "description": "Optional photo of the customer or their pet"
-      },
       "mandatory": false,
       "unique": false
     },
@@ -70,9 +55,6 @@
       "display_name": "Rating",
       "uid": "rating",
       "data_type": "select",
-      "field_metadata": {
-        "description": "Customer rating (1-5 stars)"
-      },
       "mandatory": false,
       "unique": false,
       "options": [
@@ -102,9 +84,6 @@
       "display_name": "Featured",
       "uid": "featured",
       "data_type": "boolean",
-      "field_metadata": {
-        "description": "Whether this testimonial should be featured prominently"
-      },
       "mandatory": false,
       "unique": false
     },
@@ -115,13 +94,9 @@
       "reference_to": [
         "product"
       ],
-      "field_metadata": {
-        "description": "Product the customer used (optional)"
-      },
       "mandatory": false,
       "unique": false
     }
   ],
-  "display_field": "customer_name",
-  "description": "Customer testimonial content type for Gravity Farms Petfood"
-} 
+  "display_field": "customer_name"
+}
