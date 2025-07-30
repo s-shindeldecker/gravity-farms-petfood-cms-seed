@@ -1,0 +1,21 @@
+{
+  "title": "Organic Chicken Kibble",
+  "uid": "organic-chicken-kibble",
+  "content_type": "product",
+  "locale": "en-us",
+  "product_name": "Organic Chicken & Brown Rice Kibble",
+  "product_description": "<p>Our premium organic chicken kibble is made with free-range chicken as the first ingredient, combined with wholesome brown rice and garden vegetables. This grain-inclusive formula provides complete nutrition for adult dogs of all sizes.</p><p>Key benefits:</p><ul><li>Free-range chicken as the #1 ingredient</li><li>No artificial preservatives or colors</li><li>Added vitamins and minerals</li><li>Supports healthy digestion</li><li>Made in small batches for quality</li></ul>",
+  "product_image": {
+    "uid": "chicken-kibble-001",
+    "filename": "organic-chicken-kibble.jpg",
+    "url": "https://images.contentstack.io/v3/assets/blt1234567890/blt1234567890/organic-chicken-kibble.jpg",
+    "content_type": "image/jpeg"
+  },
+  "price": "$34.99",
+  "category": "dry-food",
+  "pet_type": "dog",
+  "weight": "5 lbs",
+  "ingredients": "<p><strong>Ingredients:</strong> Organic Chicken, Organic Brown Rice, Organic Peas, Organic Carrots, Organic Sweet Potatoes, Organic Flaxseed, Organic Sunflower Oil, Vitamins (Vitamin E Supplement, Niacin, Vitamin A Supplement, Thiamine Mononitrate, Pyridoxine Hydrochloride, Riboflavin, Vitamin D3 Supplement, Vitamin B12 Supplement, Folic Acid), Minerals (Zinc Sulfate, Ferrous Sulfate, Copper Sulfate, Manganese Sulfate, Calcium Iodate, Sodium Selenite), Mixed Tocopherols (preservative), Rosemary Extract.</p>",
+  "seo_title": "Organic Chicken & Brown Rice Kibble for Dogs | Gravity Farms Petfood",
+  "seo_description": "Premium organic dog food made with free-range chicken and wholesome ingredients. Complete nutrition for adult dogs of all sizes."
+} 

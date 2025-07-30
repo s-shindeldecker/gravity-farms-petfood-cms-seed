@@ -1,0 +1,27 @@
+{
+  "title": "Homepage",
+  "uid": "homepage",
+  "content_type": "homepage",
+  "locale": "en-us",
+  "hero_headline": "Premium Organic Pet Food for Your Beloved Companions",
+  "hero_description": "<p>At Gravity Farms Petfood, we believe your pets deserve the very best. Our premium organic pet food is made with locally-sourced ingredients, free from artificial preservatives and fillers. Give your furry friends the nutrition they need to live happy, healthy lives.</p>",
+  "hero_image": {
+    "uid": "hero-image-001",
+    "filename": "hero-pet-food.jpg",
+    "url": "https://images.contentstack.io/v3/assets/blt1234567890/blt1234567890/hero-pet-food.jpg",
+    "content_type": "image/jpeg"
+  },
+  "featured_products": [
+    {
+      "uid": "organic-chicken-kibble",
+      "content_type": "product"
+    },
+    {
+      "uid": "salmon-snack-treats",
+      "content_type": "product"
+    }
+  ],
+  "cta_text": "Shop Our Products",
+  "seo_title": "Gravity Farms Petfood - Premium Organic Pet Food",
+  "seo_description": "Discover premium organic pet food made with locally-sourced ingredients. Healthy, nutritious meals for dogs and cats that your pets will love."
+} 

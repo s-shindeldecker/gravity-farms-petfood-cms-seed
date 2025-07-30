@@ -1,0 +1,140 @@
+{
+  "title": "Product",
+  "uid": "product",
+  "schema": [
+    {
+      "display_name": "Product Name",
+      "uid": "product_name",
+      "data_type": "text",
+      "field_metadata": {
+        "description": "Name of the pet food product"
+      },
+      "mandatory": true,
+      "unique": false
+    },
+    {
+      "display_name": "Product Description",
+      "uid": "product_description",
+      "data_type": "rich_text_editor",
+      "field_metadata": {
+        "description": "Detailed description of the product"
+      },
+      "mandatory": true,
+      "unique": false
+    },
+    {
+      "display_name": "Product Image",
+      "uid": "product_image",
+      "data_type": "file",
+      "field_metadata": {
+        "description": "Product image"
+      },
+      "mandatory": true,
+      "unique": false
+    },
+    {
+      "display_name": "Price",
+      "uid": "price",
+      "data_type": "text",
+      "field_metadata": {
+        "description": "Product price (e.g., $24.99)"
+      },
+      "mandatory": true,
+      "unique": false
+    },
+    {
+      "display_name": "Category",
+      "uid": "category",
+      "data_type": "select",
+      "field_metadata": {
+        "description": "Product category"
+      },
+      "mandatory": true,
+      "unique": false,
+      "options": [
+        {
+          "value": "dry-food",
+          "label": "Dry Food"
+        },
+        {
+          "value": "wet-food",
+          "label": "Wet Food"
+        },
+        {
+          "value": "treats",
+          "label": "Treats"
+        },
+        {
+          "value": "supplements",
+          "label": "Supplements"
+        }
+      ]
+    },
+    {
+      "display_name": "Pet Type",
+      "uid": "pet_type",
+      "data_type": "select",
+      "field_metadata": {
+        "description": "Type of pet this product is for"
+      },
+      "mandatory": true,
+      "unique": false,
+      "options": [
+        {
+          "value": "dog",
+          "label": "Dog"
+        },
+        {
+          "value": "cat",
+          "label": "Cat"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        }
+      ]
+    },
+    {
+      "display_name": "Weight",
+      "uid": "weight",
+      "data_type": "text",
+      "field_metadata": {
+        "description": "Product weight (e.g., 5 lbs, 12 oz)"
+      },
+      "mandatory": false,
+      "unique": false
+    },
+    {
+      "display_name": "Ingredients",
+      "uid": "ingredients",
+      "data_type": "rich_text_editor",
+      "field_metadata": {
+        "description": "List of ingredients"
+      },
+      "mandatory": false,
+      "unique": false
+    },
+    {
+      "display_name": "SEO Title",
+      "uid": "seo_title",
+      "data_type": "text",
+      "field_metadata": {
+        "description": "SEO title for the product page"
+      },
+      "mandatory": false,
+      "unique": false
+    },
+    {
+      "display_name": "SEO Description",
+      "uid": "seo_description",
+      "data_type": "text",
+      "field_metadata": {
+        "description": "SEO description for the product page"
+      },
+      "mandatory": false,
+      "unique": false
+    }
+  ],
+  "display_field": "product_name",
+  "description": "Product content type for Gravity Farms Petfood products"
+} 
