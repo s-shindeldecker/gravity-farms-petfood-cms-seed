@@ -1,0 +1,82 @@
+{
+  "title": "Homepage",
+  "uid": "homepage",
+  "schema": [
+    {
+      "display_name": "Hero Headline",
+      "uid": "hero_headline",
+      "data_type": "text",
+      "field_metadata": {
+        "description": "Main headline for the hero section"
+      },
+      "mandatory": true,
+      "unique": false
+    },
+    {
+      "display_name": "Hero Description",
+      "uid": "hero_description",
+      "data_type": "rich_text_editor",
+      "field_metadata": {
+        "description": "Rich text description for the hero section"
+      },
+      "mandatory": true,
+      "unique": false
+    },
+    {
+      "display_name": "Hero Image",
+      "uid": "hero_image",
+      "data_type": "file",
+      "field_metadata": {
+        "description": "Hero section background image"
+      },
+      "mandatory": true,
+      "unique": false
+    },
+    {
+      "display_name": "Featured Products",
+      "uid": "featured_products",
+      "data_type": "reference",
+      "reference_to": [
+        "product"
+      ],
+      "field_metadata": {
+        "description": "Products to feature on the homepage"
+      },
+      "mandatory": false,
+      "unique": false,
+      "multiple": true
+    },
+    {
+      "display_name": "Call to Action Text",
+      "uid": "cta_text",
+      "data_type": "text",
+      "field_metadata": {
+        "description": "Text for the main call-to-action button"
+      },
+      "mandatory": false,
+      "unique": false
+    },
+    {
+      "display_name": "SEO Title",
+      "uid": "seo_title",
+      "data_type": "text",
+      "field_metadata": {
+        "description": "SEO title for the homepage"
+      },
+      "mandatory": false,
+      "unique": false
+    },
+    {
+      "display_name": "SEO Description",
+      "uid": "seo_description",
+      "data_type": "text",
+      "field_metadata": {
+        "description": "SEO description for the homepage"
+      },
+      "mandatory": false,
+      "unique": false
+    }
+  ],
+  "display_field": "hero_headline",
+  "description": "Homepage content type for Gravity Farms Petfood website"
+} 
